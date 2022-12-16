@@ -1,12 +1,16 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"go-training/pointers"
+)
 
 const Pi = 3.14
 
 func main() {
 	fizzbuzz()
 	fizzbuzz2()
+	pointers.PointerSample()
 }
 
 func fizzbuzz() {
